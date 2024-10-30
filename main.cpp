@@ -72,7 +72,7 @@ vector<Edge> kruskalMST(vector<Edge>& edges, int V) {
         }
 
         // Stop if we've added enough edges for an MST
-        if (mst.size() == V - 1) {
+        if ((int) mst.size() == V - 1) {
             break;
         }
     }
