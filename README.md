@@ -1,0 +1,2 @@
+# KruskalsAlgorithm
+C++
